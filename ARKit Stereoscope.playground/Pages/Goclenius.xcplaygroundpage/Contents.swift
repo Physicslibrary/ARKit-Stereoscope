@@ -75,8 +75,7 @@ lefteye.isPlaying = true
 
 var imageView = UIImageView()
 
-lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340
-)
+lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)
 imageView.addSubview(lefteye)
 
 righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)
