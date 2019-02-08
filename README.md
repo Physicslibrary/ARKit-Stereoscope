@@ -13,7 +13,7 @@ The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 # Software
 
-1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids to program their iPad directly to access ARKit and Scenekit.
+1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds let kids to program their iPad directly to access ARKit and Scenekit.
 
 <img src="owl-viewer.jpg" width="640">
 
