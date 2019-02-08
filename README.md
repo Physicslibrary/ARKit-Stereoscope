@@ -14,7 +14,7 @@ The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 # Software
 
 1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to access ARKit and Scenekit.
-2. Apple Safari for generating 3D OBJ files and Apple Files (both come with iOS) to store those files for Swift Playgrounds to import.
+2. Apple Safari for generating 3D OBJ files and Apple Files (both come with iOS) to store and unzip those files for Swift Playgrounds to import.
 
 <img src="owl-viewer.jpg" width="640">
 
