@@ -20,4 +20,8 @@ The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 It is advisable to get a protective silicon case for the iPad to minimize the stereoscope sliding on the screen. The stereoscopic viewer is held in place by the user to allow switching between viewing and programming Swift. "Portrait Orientation Lock" is on as this should be the most comfortable position to hold the iPad with the viewer.
 
+# Installation
+
+
+
 # How it works
