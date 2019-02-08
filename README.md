@@ -22,6 +22,8 @@ It is advisable to get a protective silicon case for the iPad to minimize the st
 
 # Installation
 
+In iOS Safari, click on the link and "Copy to Playgrounds".
+
 https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Stereoscope.playground.zip
 
-# How it works
+# How it works...
