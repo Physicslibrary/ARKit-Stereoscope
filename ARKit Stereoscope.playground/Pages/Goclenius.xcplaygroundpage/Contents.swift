@@ -1,5 +1,5 @@
 // ARKit-Stereoscope
-// Copyright (c) 2019 Hartwell Fong. All rights reserved.
+// Copyright (c) 2019 Hartwell Fong. All Rights Reserved.
 //
 // Updated Feb 7, 2019.
 //
