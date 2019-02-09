@@ -28,7 +28,7 @@ https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Ste
 
 # How it works
 
-Physicist Rhett Allain gives a great explanation of how ARKit works:
+Physicist Rhett Allain gives a great explanation on how ARKit works:
 
 https://www.youtube.com/watch?v=Zf5XffYzvJ8
 
