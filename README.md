@@ -31,3 +31,5 @@ https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Ste
 Physicist Rhett Allain gives a great explanation of how ARKit works:
 
 https://www.youtube.com/watch?v=Zf5XffYzvJ8
+
+# How to make 3D files from NASA Moon Trek...
