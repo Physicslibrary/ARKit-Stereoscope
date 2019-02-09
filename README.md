@@ -26,6 +26,8 @@ In iOS Safari, click the following link, press "Download", and "Open in Playgrou
 
 https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Stereoscope.playground.zip
 
+ARKit-Stereoscope Playground file started from Blank (Swift 4.2 Edition) template in iOS Swift Playgrounds app.
+
 # How it works
 
 Physicist Rhett Allain gives a great explanation on how ARKit works:
