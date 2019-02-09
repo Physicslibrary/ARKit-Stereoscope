@@ -13,8 +13,8 @@ The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 # Software
 
-1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to access ARKit and Scenekit.
-2. Apple Safari for generating 3D OBJ files and Apple Files (both come with iOS) to store and unzip those files for Swift Playgrounds to import.
+1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
+2. Apple Safari for generating 3D OBJ files from NASA Moon Trek and Apple Files (both come with iOS) to store and unzip those files for Swift Playgrounds to import.
 
 <img src="owl-viewer.jpg" width="640">
 
@@ -26,4 +26,8 @@ In iOS Safari, click the following link, press "Download", and "Open in Playgrou
 
 https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Stereoscope.playground.zip
 
-# How it works...
+# How it works
+
+Physicist Rhett Allain explains how ARKit works:
+
+https://www.youtube.com/watch?v=Zf5XffYzvJ8
