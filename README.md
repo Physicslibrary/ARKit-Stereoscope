@@ -35,9 +35,11 @@ Physicist Rhett Allain gives a great explanation on how ARKit works:
 
 https://www.youtube.com/watch?v=Zf5XffYzvJ8
 
-# Import 3D models from NASA Moon Trek to Swift Playgrounds
+# Import 3D models from Moon Trek to Swift Playgrounds
 
-1. On an iPad, visit https://trek.nasa.gov/moon with Safari (preinstalled)
+There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This is one way using an iPad.
+
+1. Visit https://trek.nasa.gov/moon with Safari
 2. Tap magnify glass on upper left to find a crater, eg. goclenius
 3. Tap "Goclenius"
 4. Tap red "x" to hide, zoom to yellow dot
@@ -47,7 +49,7 @@ https://www.youtube.com/watch?v=Zf5XffYzvJ8
 8. Tap on yellow rectangle, select "Move/Resize Shape"
 9. Tap outside yellow rectangle after adjusting
 10. Tap on yellow rectangle, "Generate 3D Print", "OBJ"
-11. Get "Generate 3D Print File" dialog, set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and set "Texture" to one of two options, "Submit", "OK"
+11. Get "Generate 3D Print File" dialog, set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options, "Submit", "OK"
 12. Wait
 13. Get a ~6MB trekOBJ.zip (resolution=300), "More", "Save to Files"
 14. "iCloud Drive", "storage", pick a directory, "Add"
