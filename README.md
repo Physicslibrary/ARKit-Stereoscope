@@ -4,7 +4,7 @@ ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/moon
 
 The animated GIF above is from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking features points (in this case, the iPad is moving along a bookshelf on the left).
 
-The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
+The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
 
 # Hardware
 
