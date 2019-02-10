@@ -57,13 +57,13 @@ Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these i
 
 Apple Files app is used here because it is free.
 
-16. Open Files app, find trekOBJ.zip
+15. Open Files app, find trekOBJ.zip
 
-17. Tap trekOBJ.zip, tap "Preview Content"
+16. Tap trekOBJ.zip, tap "Preview Content"
 
-18. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
-19. Swipe the screen left, it says "terrain (2 of 3)", save as before
-20. Swipe the screen left, "texture (3 of 3)", save again, 
-21. Finally, in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
+17. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
+18. Swipe the screen left, it says "terrain (2 of 3)", save as before
+19. Swipe the screen left, "texture (3 of 3)", save again, 
+20. Finally, in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
 
 
