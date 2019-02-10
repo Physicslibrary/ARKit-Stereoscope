@@ -1,14 +1,14 @@
 // ARKit-Stereoscope
 // Copyright (c) 2019 Hartwell Fong. All Rights Reserved.
 //
-// Updated Feb 7, 2019.
+// Updated Feb 10, 2019.
 //
 // minimal codes to start ARKit, SceneKit (read 3D files, attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscope)
 // no error checking
 // codes hardwired for Apple 2018 9.7" iPad introduced at Apple Special Event March 27, 2018 in Chicago
 // Tips:
-// 1. If frame rate less than 60Hz, stop codes and run again
-// 2. If frame rate still low, close other apps
+// 1. If frame rate < 60Hz, stop codes and run again
+// 2. If frame rate still < 60Hz, close other apps
 // 3. Experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek webpage)
 // 15MB model.obj was generated from resolution=200
 // 4. The Swift Playgrounds Blank template has logging (which takes memory) enabled (little boxes that appears on the right side of codes when "Run My Code"). Have not found a simple solution to turn off. However, can still do interesting things with ARKit and Scenekit.
@@ -23,26 +23,23 @@ import ARKit
 import PlaygroundSupport
 
 var righteye = ARSCNView()
-var right = SCNScene()
-righteye.scene = right
+righteye.scene = SCNScene()
 righteye.scene.background.contents = UIImage(named: "TychoSkymap.t4_04096x02048.jpg")
-righteye.showsStatistics = true  // can be commented out
+righteye.showsStatistics = true  // comment out to turn off
 righteye.automaticallyUpdatesLighting = false
 
 var lefteye = SCNView()
 var left = SCNScene()
 lefteye.scene = right
-lefteye.showsStatistics = true  // can be commented out
+lefteye.showsStatistics = true  // comment out to turn off
 
 let config = ARWorldTrackingConfiguration()
 righteye.session.run(config)
 
-// next four lines can be commented out to turn off debug options
-
  righteye.debugOptions = [
  ARSCNDebugOptions.showFeaturePoints,
  ARSCNDebugOptions.showWorldOrigin
- ]
+ ]  // comment out to turn off
 
 var box = SCNScene(named: "model.obj")!
 let node = box.rootNode.childNodes[0]
@@ -56,9 +53,9 @@ let material = node.geometry?.firstMaterial
 material?.emission.contents = UIImage(named: "texture.png")
 
 var ipd = -0.063 // interpupillary distance (meter)
-var cameraNode = SCNNode()  // make camera for left eye
-let camera = SCNCamera()
-camera.xFov = 43  // these four variables depend on righteye.frame
+var cameraNode = SCNNode()
+let camera = SCNCamera()  // make a camera for left eye
+camera.xFov = 43  // camera.* depends on righteye.frame
 camera.yFov = 41
 camera.zFar = 1000
 camera.zNear = 0.1
@@ -70,8 +67,8 @@ lefteye.pointOfView = cameraNode
 
 lefteye.isPlaying = true
 
-// codes hardwired for The Owl Stereoscopic Viewer from The London Stereoscopic Company Ltd https://www.londonstereo.com
-// the stereoscope is used with a 9.7" iPad in portrait orientation lock on
+// codes hardwired for Owl Stereoscopic Viewer from The London Stereoscopic Company Ltd https://www.londonstereo.com
+// the stereoscope works with a 9.7" iPad in portrait orientation lock on
 
 var imageView = UIImageView()
 
@@ -83,8 +80,8 @@ imageView.addSubview(righteye)
 
 PlaygroundPage.current.liveView = imageView
 
-// in last line, change imageview to righteye if don't have a stereoscope
-// or observe differences between mono and stereo views (stereopsis)
+// in last line, change imageview to righteye for mono view
+// observe differences between mono and stereo views (stereopsis)
 
 
 
