@@ -44,7 +44,7 @@ There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This i
 3. Tap "Goclenius"
 4. Tap red "x" to hide, zoom to yellow dot
 5. Tap wrench on upper right, tap "Generate 3D Print File"
-6. Tap "Rectangle", draw a rectangle around Goclenius
+6. Tap "Rectangle", draw a yellow rectangle around Goclenius
 7. "Generate 3D Print File" dialog appears, tap "Cancel"
 8. Tap on yellow rectangle, select "Move/Resize Shape"
 9. Tap outside yellow rectangle after adjusting
@@ -57,15 +57,13 @@ There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This i
 To get trekOBJ.zip unzipped is complicated as there are many third-party file manager apps.
 Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in iCloud Drive where Playgrounds can access them.
 
-Apple Files app is used here because it is free.
+Apple Files app is used here because it works.
 
 15. Open Files app, find trekOBJ.zip
-
 16. Tap trekOBJ.zip, tap "Preview Content"
-
 17. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
 18. Swipe the screen left, it says "terrain (2 of 3)", save as before
-19. Swipe the screen left, "texture (3 of 3)", save again, 
-20. Finally, with ARKit-Stereoscope opened in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
+19. Swipe the screen left, "texture (3 of 3)", "Save to Files" again, 
+20. Finally, with ARKit-Stereoscope opened in Playgrounds, tap "+", tap paper icon, "Insert From...", find those files in iCloud Drive
 
 
