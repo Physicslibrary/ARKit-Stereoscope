@@ -66,6 +66,6 @@ Apple Files app is used here because it is free.
 17. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
 18. Swipe the screen left, it says "terrain (2 of 3)", save as before
 19. Swipe the screen left, "texture (3 of 3)", save again, 
-20. Finally, in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
+20. Finally, with ARKit-Stereoscope opened in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
 
 
