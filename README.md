@@ -14,7 +14,8 @@ The swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 # Software
 
 1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
-2. Apple Safari for generating 3D OBJ files from NASA Moon Trek and Apple Files (both come with iOS) to store and unzip those files for Swift Playgrounds to import.
+2. Apple Safari for generating 3D OBJ files from NASA Moon Trek
+3. Apple Files app from iOS App Store to store and unzip files for Swift Playgrounds to read
 
 <img src="owl-viewer.jpg" width="640">
 
@@ -34,4 +35,35 @@ Physicist Rhett Allain gives a great explanation on how ARKit works:
 
 https://www.youtube.com/watch?v=Zf5XffYzvJ8
 
-# Make 3D files from NASA Moon Trek...
+# Import 3D models from NASA Moon Trek to Swift Playgrounds
+
+1. On an iPad, visit https://trek.nasa.gov/moon with Safari (preinstalled)
+2. Tap magnify glass on upper left to find a crater, eg. goclenius
+3. Tap "Goclenius"
+4. Tap red "x" to hide, zoom to yellow dot
+5. Tap wrench on upper right, tap "Generate 3D Print File"
+6. Tap "Rectangle", draw a rectangle around Goclenius
+7. "Generate 3D Print File" dialog appears, tap "Cancel"
+8. Tap on yellow rectangle, select "Move/Resize Shape"
+9. Tap outside yellow rectangle after adjusting
+10. Tap on yellow rectangle, "Generate 3D Print", "OBJ"
+11. Get "Generate 3D Print File" dialog, set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and set "Texture" to one of two options, "Submit", "OK"
+12. Wait
+13. Get a ~6MB trekOBJ.zip (resolution=300), "More", "Save to Files"
+14. "iCloud Drive", "storage", pick a directory, "Add"
+
+To get trekOBJ.zip unzipped is complicated as there are many third-party file manager apps.
+Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in iCloud Drive where Playgrounds can access them.
+
+Apple Files app is used here because it is free.
+
+16. Open Files app, find trekOBJ.zip
+
+17. Tap trekOBJ.zip, tap "Preview Content"
+
+18. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
+19. Swipe the screen left, it says "terrain (2 of 3)", save as before
+20. Swipe the screen left, "texture (3 of 3)", save again, 
+21. Finally, in Playgrounds, tap on "+", tap on paper icon, "Insert From...", find those files in iCloud Drive
+
+
