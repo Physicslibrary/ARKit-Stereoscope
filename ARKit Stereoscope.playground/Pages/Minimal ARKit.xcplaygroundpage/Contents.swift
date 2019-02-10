@@ -2,7 +2,7 @@
 // ARKit-Stereoscope
 // Copyright (c) 2019 Hartwell Fong. All Rights Reserved.
 //
-// Updated Feb 7, 2019.
+// Updated Feb 10, 2019.
 //
 // minimal codes to start ARKit, SceneKit (attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscope)
 // no error checking
@@ -13,15 +13,14 @@ import ARKit
 import PlaygroundSupport
 
 var righteye = ARSCNView()
-var right = SCNScene()
-righteye.scene = right
+righteye.scene = SCNScene()
 righteye.scene.background.contents = UIColor.black
 righteye.showsStatistics = true
 righteye.automaticallyUpdatesLighting = false
 
 var lefteye = SCNView()
 var left = SCNScene()
-lefteye.scene = right
+lefteye.scene = righteye.scene
 lefteye.showsStatistics = true
 
 let config = ARWorldTrackingConfiguration()
@@ -33,9 +32,9 @@ righteye.debugOptions = [
 ]
 
 var ipd = -0.063 // interpupillary distance (meter)
-var cameraNode = SCNNode()  // make camera for left eye
+var cameraNode = SCNNode()  // make a camera for left eye
 let camera = SCNCamera()
-camera.xFov = 43  // these four variables depend on righteye.frame 
+camera.xFov = 43  // camera.* depends on righteye.frame 
 camera.yFov = 41
 camera.zFar = 1000
 camera.zNear = 0.1
@@ -47,7 +46,7 @@ lefteye.pointOfView = cameraNode
 
 lefteye.isPlaying = true
 
-// codes hardwired for The Owl Stereoscopic Viewer from The London Stereoscopic Company Ltd https://www.londonstereo.com
+// codes hardwired for Owl Stereoscopic Viewer from The London Stereoscopic Company Ltd https://www.londonstereo.com
 // the stereoscope is used with a 9.7" iPad in portrait orientation lock on
 
 var imageView = UIImageView()
@@ -60,6 +59,6 @@ imageView.addSubview(righteye)
 
 PlaygroundPage.current.liveView = imageView
 
-// in last line, change imageview to righteye if don't have a stereoscope
-// or observe differences between mono and stereo views (stereopsis)
+// in last line, change imageview to righteye for mono view
+// observe differences between mono and stereo views (stereopsis)
 
