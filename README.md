@@ -2,7 +2,7 @@ ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/moon
 
 ![](goclenius.gif)
 
-The animated GIF above is from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking features points (in this case, the iPad is moving along a bookshelf on the left).
+The animated GIF above is from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (in this case, the iPad is moving along a bookshelf on the left).
 
 The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
 
@@ -54,7 +54,7 @@ There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This i
 13. Get a ~6MB trekOBJ.zip (resolution=300), "More", "Save to Files"
 14. "iCloud Drive", "storage", pick a directory, "Add"
 
-To get trekOBJ.zip unzipped is complicated as there are many third-party file manager apps.
+To get trekOBJ.zip unzipped is complicated as there are many third-party iOS file manager apps.
 Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in iCloud Drive where Playgrounds can access them.
 
 Apple Files app is used here because it works.
