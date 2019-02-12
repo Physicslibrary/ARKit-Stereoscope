@@ -1,5 +1,5 @@
 // ARKit-Stereoscope
-// Copyright (c) 2019 Hartwell Fong. All Rights Reserved.
+// Copyright (c) 2019 Hartwell Fong. All rights reserved.
 //
 // Updated Feb 10, 2019.
 //
@@ -7,9 +7,9 @@
 // no error checking
 // codes hardwired for Apple 2018 9.7" iPad introduced at Apple Special Event March 27, 2018 in Chicago
 // Tips:
-// 1. If frame rate < 60Hz, stop codes and run again
-// 2. If frame rate still < 60Hz, close other apps
-// 3. Experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek webpage)
+// 1. if frame rate < 60Hz, stop codes and run again
+// 2. if frame rate still < 60Hz, close other apps
+// 3. experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek webpage)
 // 15MB model.obj was generated from resolution=200
 // 4. The Swift Playgrounds Blank template has logging (which takes memory) enabled (little boxes that appears on the right side of codes when "Run My Code"). Have not found a simple solution to turn off. However, can still do interesting things with ARKit and Scenekit.
 // the codes doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed
@@ -36,10 +36,12 @@ lefteye.showsStatistics = true  // comment out to turn off
 let config = ARWorldTrackingConfiguration()
 righteye.session.run(config)
 
+/*
  righteye.debugOptions = [
  ARSCNDebugOptions.showFeaturePoints,
  ARSCNDebugOptions.showWorldOrigin
- ]  // comment out to turn off
+ ]  // uncomment for test computer vision
+*/
 
 var box = SCNScene(named: "model.obj")!
 let node = box.rootNode.childNodes[0]
