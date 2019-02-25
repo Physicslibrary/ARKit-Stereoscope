@@ -57,7 +57,7 @@ There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This i
 To get trekOBJ.zip unzipped is complicated as there are many third-party iOS file manager apps.
 Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in iCloud Drive where Playgrounds can access them.
 
-Apple Files app is used here because it works.
+Apple Files app is used because it can unzip files.
 
 15. Open Files app, find trekOBJ.zip
 16. Tap trekOBJ.zip, tap "Preview Content"
