@@ -18,7 +18,7 @@ these variables in Contents.swift may have to be adjusted.
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-   A good investment and quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
+   A good investment and the quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
 
    For more current stereo images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
 
