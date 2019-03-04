@@ -17,7 +17,7 @@
 
 // Credits
 // TychoSkymap.t4_04096x02048.jpg from NASA/Goddard Space Flight Center Scientific Visualization Studio https://svs.gsfc.nasa.gov/3442
-// model.obj and texture.png from NASA https://trek.nasa.gov/moon
+// model.obj, terrain.mtl, and texture.png from NASA https://trek.nasa.gov/moon
 
 import ARKit
 import PlaygroundSupport
