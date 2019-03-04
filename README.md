@@ -12,8 +12,11 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 these variables in Contents.swift may have to be adjusted.
 
 camera.xFov = 43
+
 camera.yFov = 41
+
 lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)
+
 righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)
 
 2. The OWL Stereoscopic Viewer(£15.00) from The London Stereoscopic Company Ltd https://www.londonstereo.com/
