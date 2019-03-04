@@ -1,4 +1,4 @@
-ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/moon.
+An ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/moon.
 
 ![](goclenius.gif)
 
