@@ -8,12 +8,7 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 # Hardware
 
-1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS. Should work better on the iPad Pro (with ProMotion technology) because its refresh rate can be adjusted up to 120Hz (9.7" iPad refresh is 60Hz but the stereoscope is ~13cm from the screen). However, the display is not the same dimensions as the 9.7" iPad so these variables in Contents.swift may have to be adjusted.
-
-   camera.xFov = 43<br/>
- camera.yFov = 41<br/>
- lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)<br/>
- righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)<br/>
+1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS.
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
