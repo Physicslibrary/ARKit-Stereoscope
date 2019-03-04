@@ -11,17 +11,18 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS. Should work better on the iPad Pro because its refresh rate can be adjusted up to 120Hz. However, the display is not the same as 9.7" iPad so
 these variables in Contents.swift may have to be adjusted.
 
-camera.xFov = 43
-
-camera.yFov = 41
-
-lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)
-
-righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)
+ camera.xFov = 43<br/>
+ camera.yFov = 41<br/>
+ lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)<br/>
+ righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)<br/>
 
 2. The OWL Stereoscopic Viewer(£15.00) from The London Stereoscopic Company Ltd https://www.londonstereo.com/
 
 A good investment and quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on Library of Congress http://www.loc.gov/pictures/collection/stereo/ or New York Public Library https://stereo.nypl.org/
+
+For more current stereo images, try https://www.londonstereo.com/3-D-gallery1.html
+
+Typing "stereograph" or "stereoscope" in Google Images gives more examples.
 
 # Software
 
