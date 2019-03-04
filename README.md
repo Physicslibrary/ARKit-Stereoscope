@@ -2,7 +2,7 @@ An ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/m
 
 ![](goclenius.gif)
 
-The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (in this case, the iPad is moving along a bookshelf on the left).
+The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
 
 The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
 
@@ -16,13 +16,13 @@ these variables in Contents.swift may have to be adjusted.
  lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)<br/>
  righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)<br/>
 
-2. The OWL Stereoscopic Viewer(£15.00) from The London Stereoscopic Company Ltd https://www.londonstereo.com/
+2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-A good investment and quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on Library of Congress http://www.loc.gov/pictures/collection/stereo/ or New York Public Library https://stereo.nypl.org/
+   A good investment and quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
 
-For more current stereo images, try https://www.londonstereo.com/3-D-gallery1.html
+   For more current stereo images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
 
-Typing "stereograph" or "stereoscope" in Google Images gives more examples.
+   Typing "stereograph" or "stereoscope" in Google Images gives more examples.
 
 # Software
 
@@ -36,17 +36,13 @@ It is advisable to get a protective silicon case for the iPad to minimize the st
 
 # Installation
 
-In iOS Safari, click the following link, press "Download", and "Open in Playgrounds".
+In iOS Safari, click the following [link](https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Stereoscope.playground.zip), press "Download", and "Open in Playgrounds".
 
-https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/dist/ARKit%20Stereoscope.playground.zip
-
-ARKit-Stereoscope Playground file started from Blank (Swift 4.2 Edition) template in iOS Swift Playgrounds app.
+The ARKit-Stereoscope Playground file was created from the Blank (Swift 4.2 Edition) template in iOS Swift Playgrounds app.
 
 # How it works
 
-Physicist Rhett Allain gives a great explanation on how ARKit works:
-
-https://www.youtube.com/watch?v=Zf5XffYzvJ8
+Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://www.youtube.com/watch?v=Zf5XffYzvJ8)
 
 # Import 3D models from Moon Trek to Swift Playgrounds
 
