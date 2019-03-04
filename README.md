@@ -2,19 +2,28 @@ An ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/m
 
 ![](goclenius.gif)
 
-The animated GIF above is from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (in this case, the iPad is moving along a bookshelf on the left).
+The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (in this case, the iPad is moving along a bookshelf on the left).
 
 The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
 
 # Hardware
 
-1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS
+1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS. Should work better on the iPad Pro because its refresh rate can be adjusted up to 120Hz. However, the display is not the same as 9.7" iPad so
+these variables in Contents.swift may have to be adjusted.
+
+camera.xFov = 43
+camera.yFov = 41
+lefteye.frame = CGRect(x: 0, y: 0, width: 344, height: 340)
+righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)
+
 2. The OWL Stereoscopic Viewer(£15.00) from The London Stereoscopic Company Ltd https://www.londonstereo.com/
+
+A good investment and quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereograph cards on Library of Congress http://www.loc.gov/pictures/collection/stereo/ or New York Public Library https://stereo.nypl.org/
 
 # Software
 
 1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
-2. Apple Safari for generating 3D OBJ files from NASA Moon Trek
+2. Apple Safari for making 3D OBJ files from NASA Moon Trek
 3. Apple Files app from iOS App Store to store and unzip files for Swift Playgrounds to read
 
 <img src="owl-viewer.jpg" width="640">
@@ -64,6 +73,6 @@ Apple Files app is used because it can unzip files.
 17. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
 18. Swipe the screen left, it says "terrain (2 of 3)", save as before
 19. Swipe the screen left, "texture (3 of 3)", "Save to Files" again, 
-20. Finally, with ARKit-Stereoscope opened in Playgrounds, tap "+", tap paper icon, "Insert From...", find those files in iCloud Drive
+20. With ARKit-Stereoscope opened in Playgrounds, tap "+", tap paper icon, "Insert From...", find those files in iCloud Drive
 
 
