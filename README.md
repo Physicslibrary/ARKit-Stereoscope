@@ -12,7 +12,7 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-   Beside using it to view 3D models with full tracking , it can also be used, in a browser (no ARKit needed) to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
+   Beside using it to view 3D models with full tracking , it can also be used, in a browser (no ARKit needed), to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
 
    For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
 
