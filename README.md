@@ -14,7 +14,7 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
    A good investment and the quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
 
-   For more current stereo images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
+   For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
 
    Typing "stereograph" or "stereoscope" in Google Images gives more examples.
 
