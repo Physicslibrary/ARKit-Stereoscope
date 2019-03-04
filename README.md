@@ -4,20 +4,20 @@ An ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/m
 
 The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
 
-The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models.
+The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models (eg. like Valve HTC Vive or Oculus Rift).
 
 # Hardware
 
-1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model) and running latest iOS.
+1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model).
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-   A good investment and the quality of its construction is high. Beside using it to view 3D models with full tracking (eg. like Valve HTC Vive or Oculus Rift), it can also be used to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
+   Beside using it to view 3D models with full tracking , it can also be used, in a browser (no ARKit needed) to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/)
 
    For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html)
 
    Typing "stereograph" or "stereoscope" in Google Images gives more examples.
-
+   
 # Software
 
 1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
