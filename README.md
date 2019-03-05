@@ -6,6 +6,8 @@ The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPa
 
 The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models (eg. like Valve HTC Vive or Oculus Rift).
 
+In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope with. Go to "Related Links" on trek.nasa.gov for more treks (eg. Mars Trek).
+
 # Hardware
 
 1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model).
