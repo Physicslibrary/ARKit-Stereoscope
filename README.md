@@ -22,7 +22,7 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
 2. Apple Safari for making 3D OBJ files from NASA Moon Trek
-3. Apple Files app from iOS App Store to store and unzip files for Swift Playgrounds to read
+3. Apple Files app from iOS App Store to store and unzip files for Swift Playgrounds to read (not required if already have own file manager app to unzip and organize files)
 
 <img src="owl-viewer.jpg" width="640">
 
@@ -42,31 +42,62 @@ Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://w
 
 There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This is one way using an iPad.
 
-1. Visit https://trek.nasa.gov/moon with Safari
-2. Tap magnify glass on upper left to find a crater, eg. goclenius
-3. Tap "Goclenius"
-4. Tap red "x" to hide, zoom to yellow dot
-5. Tap wrench on upper right, tap "Generate 3D Print File"
-6. Tap "Rectangle", draw a yellow rectangle around Goclenius
-7. "Generate 3D Print File" dialog appears, tap "Cancel"
-8. Tap on yellow rectangle, select "Move/Resize Shape"
-9. Tap outside yellow rectangle after adjusting
-10. Tap on yellow rectangle, "Generate 3D Print", "OBJ"
-11. Get "Generate 3D Print File" dialog, set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options, "Submit", "OK"
-12. Wait
-13. Get a ~6MB trekOBJ.zip (resolution=300), "More", "Save to Files"
-14. "iCloud Drive", "storage", pick a directory, "Add"
+Visit https://trek.nasa.gov/moon with Safari
+
+A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is short quick start.
+
+Magnify glass on upper left to find a crater, eg. goclenius<br>
+Tap "Goclenius"<br>
+Red "x" to hide<br>
+Zoom to yellow dot<br>
+Wrench on upper right<br>
+"Generate 3D Print File"<br>
+"Rectangle"<br>
+Draw a yellow rectangle around Goclenius<br>
+"Generate 3D Print File" dialog appears<br>
+"Cancel" (to make adjustment)<br>
+Tap on yellow rectangle<br>
+"Move/Resize Shape"<br>
+Tap outside yellow rectangle to finish<br>
+Tap on yellow rectangle<br>
+"Generate 3D Print"<br>
+"OBJ"<br>
+Get "Generate 3D Print File" dialog<br>
+Set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options<br>
+"Submit"<br>
+"OK"<br>
+Wait<br>
+Get ~6MB trekOBJ.zip (resolution=300)<br>
+"More"<br>
+"Save to Files"<br>
+"iCloud Drive"<br>
+"storage"<br>
+"Add"
 
 To get trekOBJ.zip unzipped is complicated as there are many third-party iOS file manager apps.
-Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in iCloud Drive where Playgrounds can access them.
+Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in locations where Playgrounds can access them.
 
-Apple Files app is used because it can unzip files.
+Tip: If no third-party file manager, then Apple Files app can be used.
 
-15. Open Files app, find trekOBJ.zip
-16. Tap trekOBJ.zip, tap "Preview Content"
-17. On the top, it says "model (1 of 3)", tap share on upper right, "Save to Files", find a directory, "Add"
-18. Swipe the screen left, it says "terrain (2 of 3)", save as before
-19. Swipe the screen left, "texture (3 of 3)", "Save to Files" again, 
-20. With ARKit-Stereoscope opened in Playgrounds, tap "+", tap paper icon, "Insert From...", find those files in iCloud Drive
+Open Files app<br>
+Find trekOBJ.zip<br>
+Tap trekOBJ.zip<br>
+"Preview Content"<br>
+Get "model (1 of 3)"<br>
+Tap share on upper right<br>
+"Save to Files"<br>
+Pick a directory<br>
+"Add"<br>
+Swipe the screen left<br>
+Get "terrain (2 of 3)"<br>
+Save as before<br>
+Swipe the screen left<br>
+Get "texture (3 of 3)"<br>
+"Save to Files" again<br>
+Open ARKit-Stereoscope in Playgrounds<br>
+Tap "+"<br>
+Tap paper icon<br>
+"Insert From..."<br>
+Find model.obj and texture.png<br>
 
 
