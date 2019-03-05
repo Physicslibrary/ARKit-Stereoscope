@@ -46,11 +46,11 @@ Visit https://trek.nasa.gov/moon with Safari
 
 A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is short quick start.
 
-Magnify glass on upper left to find a crater, eg. goclenius<br>
+Magnify glass on top left to find a crater, eg. goclenius<br>
 Tap "Goclenius"<br>
 Red "x" to hide<br>
 Zoom to yellow dot<br>
-Wrench on upper right<br>
+Wrench on top right<br>
 "Generate 3D Print File"<br>
 "Rectangle"<br>
 Draw a yellow rectangle around Goclenius<br>
@@ -84,7 +84,7 @@ Find trekOBJ.zip<br>
 Tap trekOBJ.zip<br>
 "Preview Content"<br>
 Get "model (1 of 3)"<br>
-Tap share on upper right<br>
+Tap share on top right<br>
 "Save to Files"<br>
 Pick a directory<br>
 "Add"<br>
@@ -93,7 +93,7 @@ Get "terrain (2 of 3)"<br>
 Save as before<br>
 Swipe the screen left<br>
 Get "texture (3 of 3)"<br>
-"Save to Files" again<br>
+"Save to Files"<br>
 Open ARKit-Stereoscope in Playgrounds<br>
 Tap "+"<br>
 Tap paper icon<br>
