@@ -75,7 +75,7 @@ Get ~6MB trekOBJ.zip (resolution=300)<br>
 "Add"
 
 To get trekOBJ.zip unzipped is complicated as there are many third-party iOS file manager apps.
-Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in locations where Playgrounds can access them.
+Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in a location where Playgrounds can access them.
 
 Tip: If no third-party file manager, then Apple Files app can be used.
 
