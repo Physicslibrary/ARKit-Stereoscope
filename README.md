@@ -65,11 +65,11 @@ Tap on yellow rectangle<br>
 "Generate 3D Print"<br>
 "OBJ"<br>
 Get "Generate 3D Print File" dialog<br>
-Set Resolution < 400 (400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options<br>
+Set Resolution < 200 (default 400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options<br>
 "Submit"<br>
 "OK"<br>
 Wait<br>
-Get ~6MB trekOBJ.zip (resolution=300)<br>
+Get ~6MB trekOBJ.zip (resolution=200)<br>
 "More"<br>
 "Save to Files"<br>
 "iCloud Drive"<br>
