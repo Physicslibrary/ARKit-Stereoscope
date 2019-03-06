@@ -8,6 +8,8 @@ The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom
 
 In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope with. Go to "Related Links" on https://trek.nasa.gov for more treks (eg. Mars Trek).
 
+[GitHub Pages](https://physicslibrary.github.io/ARKit-Stereoscope/)
+
 # Hardware
 
 1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 model).
