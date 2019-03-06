@@ -66,7 +66,7 @@ Tap on yellow rectangle<br>
 "OBJ"<br>
 Get "Generate 3D Print File" dialog<br>
 Set Resolution < 200 and "Texture" to one of two options<br>
-(default 400 generates a >60MB file, get "Problem Running Playground", probably too large for a Blank Playgrounds template)<br>
+(default 400 generates a >60MB file, get "Problem Running Playground", probably too large for Playgrounds Blank template)<br>
 "Submit"<br>
 "OK"<br>
 Wait<br>
