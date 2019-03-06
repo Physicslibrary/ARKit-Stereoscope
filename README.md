@@ -46,7 +46,7 @@ There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This i
 
 Visit https://trek.nasa.gov/moon with Safari
 
-A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is short quick start.
+A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is a quick start.
 
 Magnify glass on top left to find a crater, eg. goclenius<br>
 Tap "Goclenius"<br>
@@ -65,7 +65,8 @@ Tap on yellow rectangle<br>
 "Generate 3D Print"<br>
 "OBJ"<br>
 Get "Generate 3D Print File" dialog<br>
-Set Resolution < 200 (default 400 gives ~63MB file which Blank playground doesn't like) and "Texture" to one of two options<br>
+Set Resolution < 200 and "Texture" to one of two options<br>
+(default 400 generates a >60MB file, get "Problem Running Playground", probably too large for a Blank Playgrounds template)<br>
 "Submit"<br>
 "OK"<br>
 Wait<br>
