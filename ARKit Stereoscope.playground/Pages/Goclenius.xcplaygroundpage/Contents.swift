@@ -82,7 +82,7 @@ imageView.addSubview(righteye)
 
 PlaygroundPage.current.liveView = imageView
 
-// in last line, change imageview to righteye for mono view
+// in last line, change imageView to righteye for mono view
 // observe differences between mono and stereo views (stereopsis)
 
 
