@@ -58,10 +58,10 @@ the right side when "Run My Code"). Have not found a simple solution to turn off
 However, can still do interesting things with ARKit and Scenekit until "Problem Running Playground".
 
  The codes doesn't look for a flat plane to put virtual objects on, instead the initial position
-of the iPad is the world origin when "Run My Code"
+of the iPad is the world origin when "Run My Code".
 
  Virtual objects are positioned and oriented to this world origin (with righteye.debugOptions on,
-the world origin is an XYZ or RGB axis)
+the world origin is an XYZ or RGB axis).
 
 Credits
  
