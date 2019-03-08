@@ -28,7 +28,7 @@ Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids pr
 
 # Installation
 
-In iOS Safari, [download ARKit Stereoscope.playground.zip](https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/ARKit%20Stereoscope.playground.zip), and "Open in Playgrounds".
+In iOS Safari, [download ARKit Stereoscope.playground.zip](https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/ARKit-Stereoscope.playground.zip), and "Open in Playgrounds".
 
 The ARKit-Stereoscope Playground file was created from the Blank (Swift 4.2 Edition) template in iOS Swift Playgrounds app.
 
