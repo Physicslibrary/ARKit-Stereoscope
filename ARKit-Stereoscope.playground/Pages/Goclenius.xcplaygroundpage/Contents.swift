@@ -8,16 +8,28 @@
  
  Copyright (c) 2019 Hartwell Fong
  
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject
+to the following conditions:
  
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
  
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  
  Updated Mar 8, 2019.
 
- This playground starts ARKit and SceneKit to set up scene, read a 3D file, read 2 images, and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscopic image.
+ This playground starts ARKit and SceneKit to set up scene, read a 3D file, read 2 images,
+and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscopic image.
 
  Hardware:
  
@@ -41,11 +53,15 @@
  Experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek)
  5MB model.obj was generated from resolution=200
  
- Swift Playgrounds Blank template logs every objects (little boxes that appears on the right side when "Run My Code"). Have not found a simple solution to turn off. However, can still do interesting things with ARKit and Scenekit until "Problem Running Playground".
+ Swift Playgrounds Blank template logs every objects (little boxes that appears on
+the right side when "Run My Code"). Have not found a simple solution to turn off.
+However, can still do interesting things with ARKit and Scenekit until "Problem Running Playground".
 
- The codes doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code"
+ The codes doesn't look for a flat plane to put virtual objects on, instead the initial position
+of the iPad is the world origin when "Run My Code"
 
- Virtual objects are positioned and oriented to this world origin (with righteye.debugOptions on, the world origin is an XYZ or RGB axis)
+ Virtual objects are positioned and oriented to this world origin (with righteye.debugOptions on,
+the world origin is an XYZ or RGB axis)
 
 Credits
  
