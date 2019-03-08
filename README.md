@@ -19,18 +19,14 @@ In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope 
    Beside using it to view 3D models with tracking, it can also be used, in a browser (no ARKit needed), to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
 
    For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
-
-   Typing "stereograph" or "stereoscope" in Google Images gives more examples.
    
-# Software
-
-1. Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
-2. Apple Safari for making 3D OBJ files from NASA Moon Trek
-3. Apple Files app from iOS App Store to store and unzip files for Swift Playgrounds to read (not required if already have own file manager app to unzip and organize files)
-
 <img src="owl-viewer.jpg" width="640">
 
 It is advisable to get a protective silicon case for the iPad to minimize the stereoscope sliding on the screen. The stereoscopic viewer is held in place by the user to allow switching between viewing and programming Swift. "Portrait Orientation Lock" is on as this should be the most comfortable position to hold the iPad with the viewer.
+
+# Software
+
+Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
 
 # Installation
 
@@ -42,13 +38,13 @@ The ARKit-Stereoscope Playground file was created from the Blank (Swift 4.2 Edit
 
 Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://www.youtube.com/watch?v=Zf5XffYzvJ8)
 
-# Import 3D models from Moon Trek to Swift Playgrounds
+# How to make 3D models from Moon Trek and import to Swift Playgrounds
 
 There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This is one way using an iPad.
 
 Visit https://trek.nasa.gov/moon with Safari
 
-A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is a quick start.
+A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is a short tutorial.
 
 Magnify glass on top left to find a crater, eg. goclenius<br>
 Tap "Goclenius"<br>
@@ -82,7 +78,7 @@ Get ~6MB trekOBJ.zip (resolution=200)<br>
 To get trekOBJ.zip unzipped is complicated as there are many third-party iOS file manager apps.
 Unzipping trekOBJ.zip gives model.obj, terrain.mtl, and texture.png. Put these in a location where Playgrounds can access them.
 
-Tip: If no third-party file manager, then Apple Files app can be used.
+Tip: If no third-party file manager, Apple Files (iOS App Store) can be used to store and unzip files for Swift Playgrounds.
 
 Open Files app<br>
 Find trekOBJ.zip<br>
