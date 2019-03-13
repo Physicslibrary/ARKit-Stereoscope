@@ -36,6 +36,7 @@ and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a 
  Apple 9.7" iPad (tested on 2018 model, should work on 2017 9.7" iPad, A9 CPU or higher for ARKit)
  
  The OWL Stereoscopic Viewer from The London Stereoscopic Company Ltd
+
  https://www.londonstereo.com
  
  Software:
