@@ -28,7 +28,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
  
  Updated Mar 8, 2019.
 
- This playground starts ARKit and SceneKit to set up scene, read a 3D file, read 2 images,
+ This playground uses ARKit and SceneKit to set up scene, read a 3D file, read 2 images,
 and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscopic image.
 
  Hardware:
