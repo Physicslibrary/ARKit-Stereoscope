@@ -40,6 +40,15 @@ Virtual objects are positioned and oriented according to this world origin (with
 
 If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds
 
+# Credits
+ 
+ TychoSkymap.t4_04096x02048.jpg<br>
+ NASA/Goddard Space Flight Center Scientific Visualization Studio<br>
+ https://svs.gsfc.nasa.gov/3442<br>
+ 
+ model.obj, terrain.mtl, and texture.png<br>
+ https://trek.nasa.gov/moon<br>
+
 # How it works
 
 Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://www.youtube.com/watch?v=Zf5XffYzvJ8)
