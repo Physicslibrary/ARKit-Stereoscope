@@ -44,11 +44,7 @@ and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a 
  
  Tips:
  
- If frame rate <60Hz, stop playground and run again
- 
- If frame rate still <60Hz, stop playground and run again
- 
- If still <60HZ after several tries, close something
+ If frame rate <60Hz, press iPad HOME button, return to Swift Playgrounds
  
  Experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek)
  5MB model.obj was generated from resolution=200
@@ -133,6 +129,7 @@ imageView.addSubview(lefteye)
 righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 340)
 imageView.addSubview(righteye)
 
+PlaygroundPage.current.wantsFullScreenLiveView = true
 PlaygroundPage.current.liveView = imageView
 
 // in last line, change imageview to righteye for mono view
