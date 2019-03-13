@@ -34,6 +34,12 @@ In iOS Safari, [download ARKit Stereoscope.playground.zip](https://github.com/Ph
 
 ARKit-Stereoscope playground was created from the Blank template in Swift Playgrounds.
 
+This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
+
+Virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is the XYZ or RGB axis)
+
+If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds
+
 # How it works
 
 Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://www.youtube.com/watch?v=Zf5XffYzvJ8)
