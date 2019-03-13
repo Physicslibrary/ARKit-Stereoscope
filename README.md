@@ -16,7 +16,7 @@ In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope 
 
    Beside using it to view 3D models with tracking, it can also be used, in a browser (no ARKit needed), to view stereoscopic images on [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
 
-   For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
+   For more current images, [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
    
 <img src="owl-viewer.jpg" width="640">
 
