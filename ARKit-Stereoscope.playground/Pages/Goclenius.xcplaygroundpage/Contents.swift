@@ -97,7 +97,7 @@ righteye.session.run(config)
 var box = SCNScene(named: "model.obj")!
 let node = box.rootNode.childNodes[0]
 node.position = SCNVector3(x: 0, y: 0, z: 0)
-node.eulerAngles = SCNVector3(-1.57, 3.14, 0)
+node.eulerAngles = SCNVector3(-Float.pi/2, Float.pi, 0)
 node.scale = SCNVector3(0.01, 0.01, 0.01)
 righteye.scene.rootNode.addChildNode(node)
 
