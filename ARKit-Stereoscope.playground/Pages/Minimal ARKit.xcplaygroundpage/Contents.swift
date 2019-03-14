@@ -44,7 +44,6 @@ righteye.showsStatistics = true
 righteye.automaticallyUpdatesLighting = false
 
 var lefteye = SCNView()
-var left = SCNScene()
 lefteye.scene = righteye.scene
 lefteye.showsStatistics = true
 
