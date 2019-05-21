@@ -1,5 +1,3 @@
-An ARKit stereoscope visualizes OBJ files generated from https://trek.nasa.gov/moon.
-
 ![](goclenius.gif)
 
 The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
