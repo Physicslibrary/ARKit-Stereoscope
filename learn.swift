@@ -38,27 +38,27 @@ and attact a virtual camera for lefteye to ARKit iPad camera righteye to make a 
  
  Software:
  
- Apple Swift Playgrounds (2.2) from iOS App Store
+ Apple Swift Playgrounds (3.0) from iOS App Store
  
  Tips:
  
  If frame rate <60Hz, press iPad HOME button, return to Swift Playgrounds
  
- Experiment with smaller size OBJ files (eg. resolution>=300 from NASA Moon Trek)
- 5MB model.obj was generated from resolution=200
+ Experiment with smaller size OBJ files
+ 15MB model.obj was generated from resolution=200 (NASA Moon Trek)
  
- Swift Playgrounds Blank template logs every objects (little boxes that appears on
-the right side when "Run My Code"). Have not found a simple solution to turn off.
-However, can still do interesting things with ARKit and Scenekit until "Problem Running Playground".
  The codes doesn't look for a flat plane to put virtual objects on, instead the initial position
 of the iPad is the world origin when "Run My Code".
+
  Virtual objects are positioned and oriented to this world origin (with righteye.debugOptions on,
 the world origin is an XYZ or RGB axis).
+
 Credits
  
  TychoSkymap.t4_04096x02048.jpg
  NASA/Goddard Space Flight Center Scientific Visualization Studio
  https://svs.gsfc.nasa.gov/3442
+
  model.obj, terrain.mtl, and texture.png
  https://trek.nasa.gov/moon
  
@@ -97,7 +97,7 @@ node.geometry?.firstMaterial?.emission.contents = UIImage(named: "texture.png")
 
 // hardwired for Owl Stereoscopic Viewer
 // the stereoscope works with a 9.7" iPad in portrait orientation lock on
-var ipd = -0.063 // interpupillary distance (meter)
+var ipd = -0.06 // interpupillary distance (meter)
 var cameraNode = SCNNode()
 let camera = SCNCamera()  // make a camera for left eye
 camera.xFov = 43  // camera.* depends on righteye.frame
