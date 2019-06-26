@@ -1,6 +1,6 @@
 ![](goclenius.gif)
 
-The animated GIF is captured from a 2018 Apple 9.7" iPad. The clip shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
+The animated GIF is captured from a 2018 Apple 9.7" iPad. It shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
 
 The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models (eg. like Valve HTC Vive or Oculus Rift).
 
@@ -30,9 +30,7 @@ Swift Playgrounds lets kids ages >4 program their iPad directly and to experimen
 
 # Installation
 
-Apple has updated iOS Swift Playgrounds to 3.0 on May 14, 2019. There is now a way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
-
-In Playgrounds 3.0, a "Blank" template has a switch "Enable Results" (next to "Run My Code").
+Apple has updated iOS Swift Playgrounds to 3.0 on May 14, 2019. There is now a way to turn off Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
 
 With Playgrounds 3.0 update, the file structure has changed from 2.2.
 
@@ -40,9 +38,9 @@ To keep things simple, a source file learn.swift is available for pasting into P
 
 Open a new "Blank" template in Playgrounds. Copy and paste the texts of learn.swift.
 
-Press "+" on upper right and select the "folded paper" icon. Insert model.obj, texture.png, and TychoSkymap.t4_04096x02048.jpg.
+Press "+" on upper right and select "folded paper" icon. Insert model.obj, texture.png, and TychoSkymap.t4_04096x02048.jpg.
 
-Before "Run My Code", turn off "Enable Results".
+Before "Run My Code", turn off "Enable Results" (next to "Run My Code").
 
 This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
 
