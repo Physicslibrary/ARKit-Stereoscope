@@ -55,34 +55,18 @@ Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://w
 
 There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This is one way using an iPad.
 
-Visit https://trek.nasa.gov/moon with Safari
+Visit https://trek.nasa.gov/moon with iOS Safari.
 
-A helpful tutorial dialog box usually come up (desktop browser) but does not on the current mobile Safari (or Firefox). So here is a short tutorial.
+A tutorial dialog box "Welcome to Moon Trek" should appears. If not, tap "Share" icon and "Request Desktop Site".
 
-Magnify glass on top left to find a crater, eg. goclenius<br>
-Tap "Goclenius"<br>
-Red "x" to hide<br>
-Zoom to yellow dot<br>
-Wrench on top right<br>
-"Generate 3D Print File"<br>
-"Rectangle"<br>
-Draw a yellow rectangle around Goclenius<br>
-"Generate 3D Print File" dialog appears<br>
-"Cancel" (to make adjustment)<br>
-Tap on yellow rectangle<br>
-"Move/Resize Shape"<br>
-Tap outside yellow rectangle to finish<br>
-Tap on yellow rectangle<br>
+Search for "Goclenius crater"<br>
 "Generate 3D Print"<br>
-"OBJ"<br>
 Get "Generate 3D Print File" dialog<br>
+Toggle "OBJ"<br>
 Set Resolution < 200 and "Texture" to one of two options<br>
 (default 400 generates a >60MB file, get "Problem Running Playground", probably too large for Playgrounds Blank template)<br>
-"Submit"<br>
-"OK"<br>
-Wait<br>
 Get ~6MB trekOBJ.zip (resolution=200)<br>
-"More"<br>
+Select "More"<br>
 "Save to Files"<br>
 "iCloud Drive"<br>
 "storage"<br>
@@ -98,14 +82,14 @@ Find trekOBJ.zip<br>
 Tap trekOBJ.zip<br>
 "Preview Content"<br>
 Get "model (1 of 3)"<br>
-Tap share on top right<br>
+Tap "Share" icon<br>
 "Save to Files"<br>
 Pick a directory<br>
 "Add"<br>
-Swipe the screen left<br>
+Swipe screen left<br>
 Get "terrain (2 of 3)"<br>
 Save as before<br>
-Swipe the screen left<br>
+Swipe screen left<br>
 Get "texture (3 of 3)"<br>
 "Save to Files"<br>
 Open ARKit-Stereoscope in Playgrounds<br>
@@ -113,5 +97,4 @@ Tap "+"<br>
 Tap paper icon<br>
 "Insert From..."<br>
 Find model.obj and texture.png<br>
-
 
