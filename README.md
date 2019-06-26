@@ -40,7 +40,7 @@ To keep things simple, a source file learn.swift is available for pasting into P
 
 Open a new "Blank" template in Playgrounds. Copy and paste the texts of learn.swift.
 
-Press "+" on upper right and select the third icon (folded paper). Insert model.obj, texture.png, and TychoSkymap.t4_04096x02048.jpg.
+Press "+" on upper right and select the "folded paper" icon. Insert model.obj, texture.png, and TychoSkymap.t4_04096x02048.jpg.
 
 Before "Run My Code", turn off "Enable Results".
 
