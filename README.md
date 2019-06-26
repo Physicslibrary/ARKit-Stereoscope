@@ -2,7 +2,7 @@
 
 The animated GIF is captured from a 2018 Apple 9.7" iPad. It shows the iPad moving over a 3D model of Goclenius crater. The yellow dots are ARKit computer vision tracking feature points (iPad is moving along a bookshelf on the left).
 
-The Swift code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models (eg. like Valve HTC Vive or Oculus Rift).
+The code uses ARKit to track the iPad's movement with 6 degrees-of-freedom which allows Scenekit to display the proper stereoscopic view of 3D models (eg. like Valve HTC Vive or Oculus Rift).
 
 In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope with. Go to "Related Links" on https://trek.nasa.gov for more treks (eg. Mars Trek).
 
@@ -61,9 +61,7 @@ If frame rate <60Hz, hold iPad still, swipe up from bottom edge of screen for Ho
 
 Physicist Rhett Allain gives a great explanation on how ARKit [works:](https://www.youtube.com/watch?v=Zf5XffYzvJ8)
 
-# How to make 3D models from Moon Trek and import to Swift Playgrounds
-
-There are many ways to move 3D files from Moon Trek to Swift Playgrounds. This is one way using an iPad.
+# How to make 3D models from Moon Trek and import to Playgrounds
 
 Visit https://trek.nasa.gov/moon with iOS Safari.
 
