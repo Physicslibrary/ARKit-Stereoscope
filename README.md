@@ -8,7 +8,7 @@ In addition to Moon Trek, there are other treks to experiment ARKit-Stereoscope 
 
 # Hardware
 
-1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 9.7" iPad).
+1. Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
@@ -22,21 +22,33 @@ It is advisable to get a protective silicon case for the iPad to minimize the st
 
 # Software
 
-Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
+Apple iOS Swift Playgrounds 3.0.
 
 [Swift Playgrounds](https://www.apple.com/ca/swift/playgrounds/)
 
+Swift Playgrounds lets kids ages >4 program their iPad directly and to experiment with ARKit and Scenekit.
+
 # Installation
 
-In iOS Safari, [download ARKit Stereoscope.playground.zip](https://github.com/Physicslibrary/ARKit-Stereoscope/blob/master/ARKit-Stereoscope.playground.zip), and "Open in Playgrounds".
+Apple has updated iOS Swift Playgrounds to 3.0 on May 14, 2019. There is now a way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
 
-ARKit-Stereoscope playground was created from the Blank template in Swift Playgrounds.
+In Playgrounds 3.0, a "Blank" template has a switch "Enable Results" (next to "Run My Code").
+
+With Playgrounds 3.0 update, the file structure has changed from 2.2.
+
+To keep things simple, a source file learn.swift is available for pasting into Playgrounds. Resources for the program will either be made available or links provided.
+
+Open a new "Blank" template in Playgrounds. Copy and paste the texts of learn.swift.
+
+Press "+" on upper right and select the third icon (folded paper). Insert model.obj, texture.png, and TychoSkymap.t4_04096x02048.jpg.
+
+Before "Run My Code", turn off "Enable Results".
 
 This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
 
-Virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is the XYZ or RGB axis)
+Virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is the XYZ or RGB axis).
 
-If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds
+If frame rate <60Hz, hold iPad still, swipe up from bottom edge of screen for Home screen (or press HOME button), return to Playgrounds.
 
 # Credits
  
