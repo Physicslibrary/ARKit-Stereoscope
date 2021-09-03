@@ -106,3 +106,4 @@ Tap paper icon<br>
 "Insert From..."<br>
 Find model.obj and texture.png<br>
 
+<br>Copyright (c) 2019 Hartwell Fong
